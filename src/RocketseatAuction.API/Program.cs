@@ -57,7 +57,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddDbContext<RocketseatAuctionDbContext>(options =>
 {
-    options.UseSqlite("Data Source=D:\\Cursos\\Rocketseat\\Bancos\\leilaoDbNLW.db");
+    options.UseSqlite("Data Source=Cole aqui o local do arquivo leilaoDbNLW.db");
 }
 );
 
